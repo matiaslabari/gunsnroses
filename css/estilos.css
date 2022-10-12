@@ -1,0 +1,291 @@
+/* CSS GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    align-content: center;
+}
+
+header img {
+    width: 8rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.index {
+    margin-top: 30px;
+    margin-bottom: 8rem;
+}
+.index h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.index h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 30px; 
+    text-align: center;
+}
+
+.index img {
+    max-width: 100%;
+    max-height: 70%;
+    display: block;
+    margin: auto;
+}
+
+.bg {
+    background-color: beige;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 3rem;
+    text-decoration: none;
+}
+
+
+
+footer p {
+    margin-top: 25px;
+    margin-bottom: 10rem;
+    width: 25rem;
+    color: white;
+    font-size: 25px;
+    display: inline;
+    overflow: auto;
+}
+footer ul {
+    width: 7rem;
+    margin-left: auto;
+    list-style: none;
+    display: inline;
+    padding-left: 3px;
+    padding-right: 3px;
+    margin-left: 670px;
+}
+footer li {
+    margin: 2rem;
+    margin-bottom: 0px;
+    display: inline;
+    float: inline-end;
+margin-right: 0;
+margin-left: 20px;
+}
+
+footer li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+
+.comprar {
+    text-align: end;
+}
+
+.buscador{
+    float: right;
+}
+
+.header a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+.header a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+footer a {
+        text-decoration: none;
+        background-image: linear-gradient(currentColor, currentColor);
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size .3s;
+    }
+footer a:hover, a:focus {
+        background-size: 100% 2px;
+    }
+
+
+
+/* tours */
+.tour section img {
+    width: 40rem;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 800px;
+    display: block;
+}
+.tour p {
+    margin: 4rem;
+    font-size: 3rem;
+}
+.tour_a {
+    text-decoration: none;
+    color:red;
+    padding: 0.3rem;
+}
+
+.tour_links{
+    text-decoration: none;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+.tour {
+    margin-top: 30px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.tour h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-weight: bold;
+}
+.tour h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 30px; 
+}
+.tour img {
+    width: 40rem;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 800px;
+    display: block;
+}
+
+/* News */
+
+.news {
+    margin-top: 30px;
+    margin-bottom: 8rem;
+}
+.news h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-weight: bold;
+}
+.news h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 30px; 
+}
+
+.news img {
+    width: 40rem;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 800px;
+    display: block;
+}
+
+.news_a {
+    text-decoration: none;
+    color:red;
+    padding: 0.3rem;
+}
+
+.news_links{
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    padding: 1rem;
+}
+
+.news p {
+    margin: 4rem;
+    font-size: 3rem;
+}
+
+/* Us */
+
+.nosotros {
+    margin-top: 30px;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.nosotros h2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    font-weight: bold;
+}
+.nosotros h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300; 
+    font-size: 30px; 
+}
+
+.nosotros img {
+    width: 40rem;
+    max-width: 300px;
+    max-height: 300px;
+    margin-left: 800px;
+    display: block;
+}
+
+.news_a {
+    text-decoration: none;
+    color:red;
+    padding: 0.3rem;
+}
+
+.news_links{
+    text-decoration: none;
+    color: black;
+    border: solid 0.1rem;
+    padding: 1rem;
+}
+
+.nosotros p {
+    margin: 4rem;
+    font-size: 3rem;
+}
+
+.form {
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+}
+
+.contacto {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mapa {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 30%;
+}
